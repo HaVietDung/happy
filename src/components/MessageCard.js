@@ -181,12 +181,12 @@ const CustomHeart = ({ color }) => (
 );
 
 const messages = [
-  "Xin chào 11D1 yêu dấu",
-  "Chúc mừng ngày 8/3",
-  "Chúc mẹ Hương luôn xinh đẹp, vui vẻ, hạnh phúc, 8386",
-  "Chúc tất cả các bạn nữ lớp 11D1 xinh gái, học giỏi, luôn vui tươi, yêu đời",
-  "Chúc cho tập thể lớp 11D1 luôn giữ vững ngai vàng – Vô địch trên mọi mặt trận",
-  "11D1 MÃI ĐỈNH, MÃI ĐỈNH"
+  "Hôm nay  8/3",
+  "Anh chúc em có một ngày lễ trọn vẹn và đầy ý nghĩa",
+  "Chúc em luôn vui vẻ, gặp nhiều may mắn, mỗi ngày luôn tươi cười",
+  "Chúc e ngày càng xinh đẹp, cuộc sống đong đầy hạnh phúc",
+  "Và đặc biệt là không còn buồn phiền, luôn an nhiên. Mỗi ngày trôi qua là một ngày hạnh phúc",
+  "Ngọc Anh mãi đỉnh, mãi đỉnh luôn !!!!!!"
 ];
 
 // Then update the MessageCard component to accept and pass the prop:
@@ -415,7 +415,9 @@ const MessageCard = ({ marginBottom }) => {
                                 repeatType: "reverse"
                             }}
                         >
-                    11D1 mãi đỉnh, mãi đỉnh luôn 
+                    ❤️❤️❤️I love you very much❤️❤️❤️
+                    <br/>
+                    Love Ngọc Anh 
                         </motion.div>
                     </FinalMessage>
                 </FullscreenOverlay>

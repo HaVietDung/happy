@@ -205,16 +205,16 @@ function App() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        Chào mừng ngày quốc tế phụ nữ 8/3
+        🌹🌹🌹 Chúc mừng 8/3 Ngọc Anh baby 🌹🌹🌹
       </Title>
       
-      <PuppyContainer
+      {/* <PuppyContainer
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1, delay: 0.5 }}
-      >
+      > */}
         {/* <PuppyFrame /> */}
-        <model-viewer
+        {/* <model-viewer
           ref={modelViewerRef}
           src="../public/toon_cute_dog.glb"
           alt="A cute cartoon dog"
@@ -229,9 +229,8 @@ function App() {
           ar
           ar-modes="webxr scene-viewer quick-look"
           style={{ width: '100%', height: '90%' }}
-        ></model-viewer>
-      </PuppyContainer>
-      
+        ></model-viewer> */}
+      <img src='https://scontent.fhan17-1.fna.fbcdn.net/v/t39.30808-6/474014040_1021905039697028_2809036437460045736_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Z5AFm1jZ2ZkQ7kNvgHd8MDZ&_nc_oc=AdhwCh1U-YYJ08YHS4DHUZmEjW4FBzJ_gusFfVrRD5YYBZp3X3zl1QVE-nRe5QXpp7A&_nc_zt=23&_nc_ht=scontent.fhan17-1.fna&_nc_gid=AFp8d2cfMU0JtCvG2rlAPv2&oh=00_AYE6AsviFbDPH_4Ptu1kUdsi_WfRM0bqGUC7UTI2LZvSWw&oe=67D23B7F' width={400}/>
       <MessageCard marginBottom={true} />
     </AppContainer>
   );
